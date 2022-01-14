@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header.top {
+    background:url("images/banner4.jpg");
+    position: relative;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+}
+header h1 {
+    position: relative;
+    font-size: 30px;
+    margin-left: 30px;
+    top: 40px;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+header strong {
+    font-weight: 700;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+header ul {
+    list-style: none;
+    position: relative;
+    float: right;
+    right: 20px;
+    top: 0px;
+}
+header ul li {
+    display: block;
+    padding: 30px;
+    float: left;
+}
+header ul li a {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:rgb(212, 154, 19);
+    
+}
+header ul li a:hover {
+    color: rgb(11, 175, 11);
+}
+ header #banner {
+     width: 100%;
+     position: absolute;
+     top: 40%;
+     text-align: center;
+    }
+#banner h2 {
+     font-size: 40px;
+     color: rgb(212, 154, 19);
+     font-weight: 700;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+ }
+ #banner p {
+    color:rgb(11, 175, 11) ;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    
+ }
+#banner a {
+    padding: 1px 10px;
+    background:rgb(255, 255, 255);
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 100px;
+    color: black;
+}
+/* ------------------İKİNCİ KISIM----------------------- */
+#bolumiki {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+.kapsayici {
+    width: 1000px;
+    padding: 0 auto;
+}
+#bolumiki .kapsayici .sol {
+    width: 400px;
+    float: left;
+    padding-left: 70px;
+}
+#bolumiki h2 {
+    font-family:'Raleway', sans-serif; 
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(218, 106, 14);
+    line-height: 60px;
+}
+#bolumiki .sol p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(15, 158, 39);
+    line-height: 40px;  
+}
+
+#bolumiki .sag {
+    width: 400px;
+    float:right;
+    padding-right: 50px;
+    margin-left: 40px;
+}
+#bolumiki .sag p {
+    line-height: 30px;
+    color: crimson;
+    margin-bottom: 20px;
+}
+.temizle {
+    clear: both;
+}
+/* -----------------------ÜÇÜNCÜ KISIM---------------- */
+
+#bolumuc {
+    width: 100%;
+    margin: 40 auto;
+    padding: 30px 0 ;
+    background:white;
+    text-align: center;
+}
+#bolumuc h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Raleway', sans-serif; 
+    color: rgb(54, 43, 21);
+}
+#bolumuc p {
+    margin: 40px 0;
+    font-family:'Courier New', Courier;
+    font-size: 20px;
+    font-weight: 300;
+    color: #32282b;
+}
+#bolumuc .resim {
+    width: 550px;
+    float: left;
+    background: #fff;
+    margin: 50px 20px ;
+    border: solid #ccc;
+    box-shadow: 5px 5px 3px #ccc;
+
+}
+#bolumuc img {
+    width: 500px;
+    margin: 0;
+}
+#bolumuc .kapsayici2 {
+    width: 1300px;
+    margin: 0 auto;
+}
+#bolumuc ul {
+    list-style: none;
+}
+#bolumuc ul li {
+    display: inline-block;
+}
+#bolumuc ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    display:flex;
+    padding: 10px  10px;
+    background: rgb(129, 58, 58);
+    color: rgb(168, 64, 4);
+    font-weight: 600;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+
+}
+#bolumuc ul li:nth-child(2) a {
+    background: rgba(192, 138, 38, 0.65);
+}
